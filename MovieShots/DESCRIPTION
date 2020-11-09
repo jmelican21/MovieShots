@@ -1,0 +1,16 @@
+Package: MovieShots
+Title: What the Package Does (One Line, Title Case)
+Version: 0.1.0
+Authors@R: 
+    person(given = "Jimmy",
+           family = "Melican",
+           role = c("aut", "cre"),
+           email = "first.last@example.com")
+Description: This package includes a dataset containing the length of each shot from 192 popular movies made between 1915 and 2015. The data was first made available in seperate Excel files by Professor James E. Cutting of Cornell University.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
