@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # MovieShots
 
 <!-- badges: start -->
+[![R build status](https://github.com/jmelican21/MovieShots/workflows/R-CMD-check/badge.svg)](https://github.com/jmelican21/MovieShots/actions)
 <!-- badges: end -->
 
 The goal of MovieShots is to provide information on shot duration in movies. The data spans 192 movies across the century from 1915 to 2015. 
