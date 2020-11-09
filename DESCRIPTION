@@ -1,11 +1,11 @@
 Package: MovieShots
-Title: What the Package Does (One Line, Title Case)
+Title: This package contains information about shot duration in movies made between 1915 and 2015.
 Version: 0.1.0
 Authors@R: 
     person(given = "Jimmy",
            family = "Melican",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
+           email = "jmelican21@amherst.edu")
 Description: This package includes a dataset containing the length of each shot from 192 popular movies made between 1915 and 2015. The data was first made available in seperate Excel files by Professor James E. Cutting of Cornell University.
 License: MIT + file LICENSE
 Encoding: UTF-8
