@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![R build
+status](https://github.com/jmelican21/MovieShots/workflows/R-CMD-check/badge.svg)](https://github.com/jmelican21/MovieShots/actions)
 <!-- badges: end -->
 
 The goal of MovieShots is to provide information on shot duration in
@@ -32,8 +34,6 @@ meandur <- MovieShots %>% group_by(year) %>% summarize(mean = mean(duration))
 
 runtime <- MovieShots %>% group_by(year,title) %>% summarize(runtime = sum(duration)/60) #divide by 60 for minutes
 ```
-
-Please analyze the data on Golf discs to answer the following questions.
 
 ### a. How has average shot duration changed over time?
 

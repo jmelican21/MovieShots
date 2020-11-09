@@ -44,7 +44,6 @@ runtime <- MovieShots %>% group_by(year,title) %>% summarize(runtime = sum(durat
 
 ```
 
-Please analyze the data on Golf discs to answer the following questions.
 
 ### a. How has average shot duration changed over time?
 
