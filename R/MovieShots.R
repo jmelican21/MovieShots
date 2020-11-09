@@ -1,7 +1,7 @@
 #' Movie Shots (1915-2015)
 #'
-#' This package contains information about shot duration
-#' in movies made between 1915 and 2015
+#' This package includes information about shot duration
+#' in movies made between 1915 and 2015.
 #' @docType package
 #' @name MovieShots
 #' @aliases MovieShots MovieShots-package
@@ -9,7 +9,7 @@ NULL
 
 #' "MovieShots"
 #'
-#' A data set containing duration of
+#' MovieShots is data set containing duration of
 #' each shot from 192 movies.
 #'
 #' @source \url{http://people.psych.cornell.edu/~jec7/data.htm}
