@@ -23,23 +23,16 @@ devtools::install_github("jmelican21/MovieShots")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
-
 ``` r
 library(MovieShots)
 library(tidyverse)
-
-meandur <- MovieShots %>% group_by(year) %>% summarize(mean = mean(duration))
-
-
-runtime <- MovieShots %>% group_by(year,title) %>% summarize(runtime = sum(duration)/60) #divide by 60 for minutes
 ```
 
 ### a. How has average shot duration changed over time?
 
-SOLUTION:
-
 ``` r
+meandur <- MovieShots %>% group_by(year) %>% summarize(mean = mean(duration))
+
 ggplot(meandur,
   aes(x = year, y = mean)) +
  geom_col() + geom_smooth(se= FALSE, color = "red")+
@@ -54,9 +47,9 @@ the 1960’s to around 3 seconds in 2015.
 
 ### b) Has total runtime changed over the past century?
 
-SOLUTION:
-
 ``` r
+runtime <- MovieShots %>% group_by(year,title) %>% summarize(runtime = sum(duration)/60)
+
 ggplot(runtime,
   aes(x = year, y = runtime)) +
   geom_point() + 

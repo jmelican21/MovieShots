@@ -1,5 +1,8 @@
 library(tidyverse)
 library(readxl)
+
+#downloaded from: http://people.psych.cornell.edu/~jec7/datarepos/Movies1915to2015.zip
+
 filenames <- list.files("Movies1915to2015/", recursive = TRUE)
 
 dataset <- data.frame()
